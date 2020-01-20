@@ -33,9 +33,3 @@ install: [
    "-prefix" "%{prefix}%"
    "-script" "%{build}%/Satyristes"]
 ]
-remove: [
-  ["satyrographos" "opam" "uninstall"
-   "-name" "fonts-theano"
-   "-prefix" "%{prefix}%"
-   "-script" "%{build}%/Satyristes"]
-]
